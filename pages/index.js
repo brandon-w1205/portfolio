@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
      {/* useRef + scrolling */}
-     <h1>My Portfolio</h1>
+     <h1>Brandon Wu</h1>
     </div>
   )
 }
