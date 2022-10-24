@@ -16,7 +16,7 @@ const Main = () => {
                     A Full-Stack Developer
                 </h1>
                 <p className='py-4 text-white max-w-[70%] m-auto'>
-                    I'm a full-stack developer with an emphasis on back-end development and love to work with databases. Looking forward to building foundations with you, check out my links below!
+                    I&apos;m a full-stack developer with an emphasis on back-end development and love to work with databases. Looking forward to building foundations with you, check out my links below!
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-300'>
