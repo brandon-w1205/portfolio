@@ -1,4 +1,35 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-800 text-slate-50 tracking-wide /* rgb(38, 38, 38) sets background color and text color*/
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+  
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-lime-500 to-lime-700 text-white
+  }
+
+}
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -16,7 +47,7 @@ a {
 }
 
 /* media queries go here in global */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -24,4 +55,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
