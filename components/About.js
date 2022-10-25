@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import picOfMe from '../public/assets/picOfMe.jpg'
 
 export default function About() {
     return (
@@ -8,7 +9,7 @@ export default function About() {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-emerald-400'>About</p>
                     <h2 className='py-4'>Me!</h2>
-                    <p className='py-2'> 
+                    <p className='py-2'>
                         After graduating from the California State University of Fullerton with a bachelor&apos;s in Accounting, I quickly realized that the field was not for me when I found myself partaking in programming tutorials during my off-time from work! This enjoyment for programming led me to researching software engineering bootcamps, particularly General Assembly.
                     </p>
                     <p className='py-2'>
@@ -17,7 +18,7 @@ export default function About() {
                     <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
                 </div>
                 <div className='w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <Image src='/../public/assets/picOfMe.jpg' className='rounded-full' alt='picture of me' width='300' height='300' />
+                    <Image src={picOfMe} className='rounded-full' alt='picture of me' width='300' height='300' />
                 </div>
             </div>
         </div>

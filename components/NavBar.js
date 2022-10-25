@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import bwu from '../public/assets/brandon-wu.png'
+import bwu2 from '../public/assets/brandon-wu2.png'
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
@@ -48,7 +49,7 @@ export default function NavBar() {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/brandon-wu2.png' alt='/' width='200' height='75'/>
+                            <Image src={bwu2} alt='/' width='200' height='75'/>
                             <div onClick={handleNav} className='rounded-full outline p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
