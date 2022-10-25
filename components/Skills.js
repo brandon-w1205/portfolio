@@ -6,6 +6,7 @@ import python from '../public/assets/skills/python.png'
 import react from '../public/assets/skills/react.png'
 import node from '../public/assets/skills/node.png'
 import tailwind from '../public/assets/skills/tailwind.png'
+import expressjs from '../public/assets/skills/express.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import javascript from '../public/assets/skills/javascript.png'
 import typescript from '../public/assets/skills/typescript.png'
@@ -81,14 +82,13 @@ const Skills = () => {
           </div>
 
 
-
           <div className='p-6 shadow-lg shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={tailwind} width='64px' height='64px' alt='/' />
+                <Image src={expressjs} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Tailwind</h3>
+                <h3>Express</h3>
               </div>
             </div>
           </div>
@@ -161,6 +161,18 @@ const Skills = () => {
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>CSS</h3>
+              </div>
+            </div>
+          </div>
+
+          
+          <div className='p-6 shadow-lg shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+              <div className='m-auto'>
+                <Image src={tailwind} width='64px' height='64px' alt='/' />
+              </div>
+              <div className='flex flex-col items-center justify-center'>
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>
