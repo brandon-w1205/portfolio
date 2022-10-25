@@ -56,6 +56,7 @@ export default function NavBar() {
                             <p className='w-[85%] md:w-[90%] py-4'>Let&apos;s build something together</p>
                         </div>
                     </div>
+                    {/* popup */}
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>

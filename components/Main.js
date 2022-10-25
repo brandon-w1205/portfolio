@@ -10,7 +10,7 @@ const Main = () => {
             <div>
                 <p className='uppercase text-sm tracking-widest text-white'>{'ONE STEP AT A TIME'}</p>
                 <h1 className='py-4 text-white'>
-                    Hi, I&apos;m <span className='text-lime-400'>Brandon</span>
+                    Hi, I&apos;m <span className='text-emerald-400'>Brandon</span>
                 </h1>
                 <h1 className='py-4 text-white'>
                     A Full-Stack Developer
