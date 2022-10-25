@@ -1,6 +1,7 @@
 // import built in line from next
 import Link from 'next/link'
 import Image from 'next/image'
+import bwu from '../public/assets/brandon-wu.png'
 import React, { useState } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
@@ -16,7 +17,7 @@ export default function NavBar() {
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image src={'/../public/assets/brandon-wu.png'} alt='/' width='300' height='300' />
+                <Image src={bwu} alt='/' width='300' height='300' />
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
