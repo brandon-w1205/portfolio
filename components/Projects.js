@@ -23,7 +23,7 @@ const Projects = () => {
             title='cheapEgames'
             backgroundImg={cheapEgames}
             techStack='Express, PostgresQL, BootStrap'
-            projectUrl='https://waggroup.vercel.app/'
+            projectUrl='https://cheapegames-brandon-w1205.koyeb.app/'
           />
           <ProjectItem
             title='The Perfect Blend'
