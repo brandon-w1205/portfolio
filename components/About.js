@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import picOfMe from '../public/assets/picOfMe.jpg'
+import picOfMe2 from '../public/assets/picOfMe2.jpg'
 
 export default function About() {
     return (
@@ -18,7 +18,7 @@ export default function About() {
                     <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
                 </div>
                 <div className='w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <Image src={picOfMe} className='rounded-full' alt='picture of me' width='300' height='300' />
+                    <Image src={picOfMe2} className='rounded-full' width='300' height='300' />
                 </div>
             </div>
         </div>
