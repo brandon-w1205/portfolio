@@ -1,9 +1,9 @@
 import React from 'react'
-import wag from '../public/assets/projects/WAG.png'
+import wagImg from '../public/assets/projects/WAG.png'
 import ProjectItem from './ProjectItem'
-import blend from '../public/assets/projects/the-perfect-blend.png'
-import piggy from '../public/assets/projects/that-little-piggy.png'
-import cheapEgames from '../public/assets/projects/cheapEgames.png'
+import blendImg from '../public/assets/projects/the-perfect-blend.png'
+import piggyImg from '../public/assets/projects/that-little-piggy.png'
+import cheapEgamesImg from '../public/assets/projects/cheapEgames.png'
 
 const Projects = () => {
   return (
@@ -15,25 +15,27 @@ const Projects = () => {
 
           <ProjectItem
             title='Working Algorithm Games'
-            backgroundImg={wag}
+            backgroundImg={wagImg}
             techStack='Next, MongoDB, TypeScript, Ant Design'
-            projectUrl='https://waggroup.vercel.app/'
+            // projectUrl='https://waggroup.vercel.app/'
+            projectUrl='/working-algorithm-games'
           />
           <ProjectItem
             title='cheapEgames'
-            backgroundImg={cheapEgames}
+            backgroundImg={cheapEgamesImg}
             techStack='Express, PostgresQL, BootStrap'
-            projectUrl='https://cheapegames-brandon-w1205.koyeb.app/'
+            // projectUrl='https://cheapegames-brandon-w1205.koyeb.app/'
+            projectUrl='/cheapEgames'
           />
           <ProjectItem
             title='The Perfect Blend'
-            backgroundImg={blend}
+            backgroundImg={blendImg}
             techStack='React, MongoDB, Bulma'
             projectUrl='https://the-perfect-blend.netlify.app/'
           />
           <ProjectItem
             title='That Little Piggy'
-            backgroundImg={piggy}
+            backgroundImg={piggyImg}
             techStack='Javascript (Canvas), HTML, Vanilla CSS'
             projectUrl='https://brandon-w1205.github.io/That-Little-Piggy/'
           />

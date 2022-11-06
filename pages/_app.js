@@ -4,11 +4,8 @@ import NavBar from '../components/NavBar'
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      {/* header */}
-      
-      {/* aside... */}
+      <NavBar />
       <Component {...pageProps} />
-      {/* footer */}
     </>
   )
 }

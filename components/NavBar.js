@@ -18,23 +18,25 @@ export default function NavBar() {
     return (
         <div className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Image src={bwu} alt='/' width='300' height='300' />
+                <Link href='/'>
+                    <Image src={bwu} alt='/' width='300' height='300' />
+                </Link>
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Home</li>
+                            <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>About Me</li>
+                            <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>About Me</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Skills</li>
+                            <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Projects</li>
+                            <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Contact</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
@@ -49,7 +51,9 @@ export default function NavBar() {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src={bwu2} alt='/' width='200' height='75' />
+                            <Link href='/'>
+                                <Image src={bwu2} alt='/' width='200' height='75' />
+                            </Link>
                             <div onClick={handleNav} className='rounded-full outline p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
@@ -62,19 +66,19 @@ export default function NavBar() {
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <Link href='/'>
-                                <li className='py-4 text-sm'>Home</li>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Home</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>About Me</li>
+                            <Link href='/#about'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>About Me</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Skills</li>
+                            <Link href='/#skills'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Projects</li>
+                            <Link href='/#projects'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
                             </Link>
-                            <Link href='/'>
-                                <li className='py-4 text-sm'>Contact</li>
+                            <Link href='/#contact'>
+                                <li onClick={() => setNav(false)} className='py-4 text-sm'>Contact</li>
                             </Link>
                         </ul>
                         <div className='pt-40'>
