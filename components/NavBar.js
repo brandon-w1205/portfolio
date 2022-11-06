@@ -107,18 +107,21 @@ export default function NavBar() {
                         <div className='pt-40'>
                             <p className='uppercase tracking-widest text-emerald-500'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaLinkedinIn />
-                                </div>
-                                <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <FaGithub />
-                                </div>
-                                <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail />
-                                </div>
-                                <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
-                                </div>
+                                <a href='https://www.linkedin.com/in/brandonjwu/' target='blank'>
+                                    <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaLinkedinIn />
+                                    </div>
+                                </a>
+                                <a href='https://github.com/brandon-w1205' target='blank'>
+                                    <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <FaGithub />
+                                    </div>
+                                </a>
+                                <Link href='/#contact'>
+                                    <div onClick={() => setNav(false)} className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                        <AiOutlineMail onClick={() => setNav(false)} />
+                                    </div>
+                                </Link>
                             </div>
                         </div>
                     </div>

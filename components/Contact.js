@@ -35,20 +35,19 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className='uppercase pt-8'>Connect With Me</p>
+
                                 {/* add links for icons */}
-                                <div className='flex items-center justify-between py-4'>
-                                    <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
-                                        <FaLinkedinIn />
-                                    </div>
-                                    <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
-                                        <FaGithub />
-                                    </div>
-                                    <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
-                                        <AiOutlineMail />
-                                    </div>
-                                    <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
-                                        <BsFillPersonLinesFill />
-                                    </div>
+                                <div className='flex gap-x-5 justify-start py-4'>
+                                    <a href='https://www.linkedin.com/in/brandonjwu/' target='blank'>
+                                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                                            <FaLinkedinIn />
+                                        </div>
+                                    </a>
+                                    <a href='https://github.com/brandon-w1205' target='blank'>
+                                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                                            <FaGithub />
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -62,7 +61,7 @@ const Contact = () => {
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
                                         <label htmlFor='name' className='uppercase text-sm py-2'>Name</label>
-                                        <input required name='Name' id='name' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={name} onChange={e => setName(e.target.value)}/>
+                                        <input required name='Name' id='name' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={name} onChange={e => setName(e.target.value)} />
                                     </div>
                                     <div className='flex flex-col'>
                                         <label htmlFor='phone number' className='uppercase text-sm py-2'>Phone Number</label>
@@ -71,11 +70,11 @@ const Contact = () => {
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label htmlFor='Email Address' className='uppercase text-sm py-2'>Email Address</label>
-                                    <input name='Email Address' id='email address' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='email' value={email} onChange={e => setEmail(e.target.value)}/>
+                                    <input name='Email Address' id='email address' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='email' value={email} onChange={e => setEmail(e.target.value)} />
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label htmlFor='subject' className='uppercase text-sm py-2'>Subject</label>
-                                    <input required name='Subject' id='subject' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={subject} onChange={e => setSubject(e.target.value)}/>
+                                    <input required name='Subject' id='subject' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={subject} onChange={e => setSubject(e.target.value)} />
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label htmlFor='Message' className='uppercase text-sm py-2'>Message</label>
@@ -89,8 +88,8 @@ const Contact = () => {
                 </div>
                 <div className='flex justify-center py-12'>
                     <Link href='/'>
-                    <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-4 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
-                            <HiOutlineChevronDoubleUp size={30}/>
+                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-4 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                            <HiOutlineChevronDoubleUp size={30} />
                         </div>
                     </Link>
                 </div>
