@@ -18,9 +18,9 @@ export default function NavBar() {
     useEffect(() => {
         if (
             router.asPath === '/working-algorithm-games' ||
-            router.asPath === '/cheapEgames'
-            // add path for the perfect blend
-            // add path for that little piggy
+            router.asPath === '/cheapEgames' ||
+            router.asPath === '/the-perfect-blend' ||
+            router.asPath === '/that-little-piggy'
         ) {
             setNavBg('transparent')
             setLinkColor('white')

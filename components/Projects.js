@@ -29,15 +29,13 @@ const Projects = () => {
             title='The Perfect Blend'
             backgroundImg={blendImg}
             techStack='React, MongoDB, Bulma'
-            // add route for perfect blend
-            projectUrl='https://the-perfect-blend.netlify.app/'
+            projectUrl='/the-perfect-blend'
           />
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}
-            // add route for piggy
             techStack='Javascript (Canvas), HTML, Vanilla CSS'
-            projectUrl='https://brandon-w1205.github.io/That-Little-Piggy/'
+            projectUrl='/that-little-piggy'
           />
 
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import cheapEgamesImg from '../public/assets/projects/cheapEgames.png'
-import {RiRadioButtonFill} from 'react-icons/ri'
+import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
 const cheapEgames = () => {
@@ -20,20 +20,22 @@ const cheapEgames = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>cheapEgames was created using Express, PostgresQL, and BootStrap. Users are able to find deals on games by entering a video-game genre into the search bar. This application was created by myself as a first attempt with a full-stack application. I wanted to build a website that I could personally use to benefit my purchases while learning the PERN stack. The application utilizes the RAWG and CheapShark API to gain data about the latest video-game deals and information. In the future, I plan to implement search-by-name functionality.</p>
-          {/* add link to deployment */}
-          <button className='px-8 py-2 mt-4 mr-8'>Link to Site</button>
-          {/* add link to github */}
-          <button className='px-8 py-2 mt-4'>Github</button>
+          <a href='https://cheapegames-brandon-w1205.koyeb.app/' target='blank'>
+            <button className='px-8 py-2 mt-4 mr-8'>Link to Site</button>
+          </a>
+          <a href='https://github.com/brandon-w1205/cheapEgames' target='blank'>
+            <button className='px-8 py-2 mt-4'>Github</button>
+          </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-md shadow-slate-500 bg-zinc-700 rounded-xl p-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-4 md:grid-cols-1'>
-              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>Express</p>
-              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>PostgresQL</p>
-              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>BootStrap</p>
-              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>RAWG API</p>
-              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/>CheapShark API</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' />Express</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' />PostgresQL</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' />BootStrap</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' />RAWG API</p>
+              <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1' />CheapShark API</p>
             </div>
           </div>
         </div>
