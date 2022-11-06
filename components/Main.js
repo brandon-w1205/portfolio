@@ -19,6 +19,7 @@ const Main = () => {
                     I&apos;m a full-stack developer with an emphasis on front-end development and love working with javascript and apis. Looking forward to building foundations with you, check out my links below!
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+                    {/* add links for icons */}
                     <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaLinkedinIn />
                     </div>

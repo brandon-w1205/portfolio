@@ -17,25 +17,25 @@ const Projects = () => {
             title='Working Algorithm Games'
             backgroundImg={wagImg}
             techStack='Next, MongoDB, TypeScript, Ant Design'
-            // projectUrl='https://waggroup.vercel.app/'
             projectUrl='/working-algorithm-games'
           />
           <ProjectItem
             title='cheapEgames'
             backgroundImg={cheapEgamesImg}
             techStack='Express, PostgresQL, BootStrap'
-            // projectUrl='https://cheapegames-brandon-w1205.koyeb.app/'
             projectUrl='/cheapEgames'
           />
           <ProjectItem
             title='The Perfect Blend'
             backgroundImg={blendImg}
             techStack='React, MongoDB, Bulma'
+            // add route for perfect blend
             projectUrl='https://the-perfect-blend.netlify.app/'
           />
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}
+            // add route for piggy
             techStack='Javascript (Canvas), HTML, Vanilla CSS'
             projectUrl='https://brandon-w1205.github.io/That-Little-Piggy/'
           />

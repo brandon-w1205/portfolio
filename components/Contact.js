@@ -29,6 +29,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <p className='uppercase pt-8'>Connect With Me</p>
+                                {/* add links for icons */}
                                 <div className='flex items-center justify-between py-4'>
                                     <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
                                         <FaLinkedinIn />
@@ -48,6 +49,7 @@ const Contact = () => {
                     </div>
 
                     {/* right-side */}
+                    {/* use mailTo form to redirect person to their email app w/ prepopulated info */}
                     <div className='col-span-3 w-full h-auto shadow-md shadow-slate-500 bg-zinc-700 rounded-xl lg:p-4'>
                         <div className='p-4'>
                             <form>

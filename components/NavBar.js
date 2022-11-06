@@ -7,22 +7,41 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { useRouter } from 'next/router'
 
 export default function NavBar() {
     const [nav, setNav] = useState(true)
+    const [navBg, setNavBg] = useState('#333333')
+    const [linkColor, setLinkColor] = useState('white')
+    const router = useRouter()
+
+    useEffect(() => {
+        if (
+            router.asPath === '/working-algorithm-games' ||
+            router.asPath === '/cheapEgames'
+            // add path for the perfect blend
+            // add path for that little piggy
+        ) {
+            setNavBg('transparent')
+            setLinkColor('white')
+        } else {
+            setNavBg('#333333')
+            setLinkColor('white')
+        }
+    }, [router])
 
     const handleNav = () => {
         setNav(!nav)
     }
 
     return (
-        <div className='fixed w-full h-20 shadow-xl z-[100]'>
+        <div style={{ backgroundColor: `${navBg}` }} className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image src={bwu} alt='/' width='300' height='300' />
                 </Link>
                 <div>
-                    <ul className='hidden md:flex'>
+                    <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
                         <Link href='/'>
                             <li className='ml-10 text-sm uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Home</li>
                         </Link>

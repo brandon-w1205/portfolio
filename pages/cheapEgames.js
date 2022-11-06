@@ -20,7 +20,9 @@ const cheapEgames = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>cheapEgames was created using Express, PostgresQL, and BootStrap. Users are able to find deals on games by entering a video-game genre into the search bar. This application was created by myself as a first attempt with a full-stack application. I wanted to build a website that I could personally use to benefit my purchases while learning the PERN stack. The application utilizes the RAWG and CheapShark API to gain data about the latest video-game deals and information. In the future, I plan to implement search-by-name functionality.</p>
+          {/* add link to deployment */}
           <button className='px-8 py-2 mt-4 mr-8'>Link to Site</button>
+          {/* add link to github */}
           <button className='px-8 py-2 mt-4'>Github</button>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-md shadow-slate-500 bg-zinc-700 rounded-xl p-4'>
