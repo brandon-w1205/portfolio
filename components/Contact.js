@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import typing from '../public/assets/typing.webp'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -8,6 +8,12 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import Link from 'next/link'
 
 const Contact = () => {
+    const [message, setMessage] = useState('Send Message')
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [body, setBody] = useState('')
+
     return (
         <div id='contact' className='w-full lg:h-screen'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
@@ -52,30 +58,31 @@ const Contact = () => {
                     {/* use mailTo form to redirect person to their email app w/ prepopulated info */}
                     <div className='col-span-3 w-full h-auto shadow-md shadow-slate-500 bg-zinc-700 rounded-xl lg:p-4'>
                         <div className='p-4'>
-                            <form>
+                            <form action={`mailto:bwu1205@gmail.com?subject=Contact Form Submission`} method='post' encType='text/plain'>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                                     <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Name</label>
-                                        <input className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' />
+                                        <label htmlFor='name' className='uppercase text-sm py-2'>Name</label>
+                                        <input required name='Name' id='name' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={name} onChange={e => setName(e.target.value)}/>
                                     </div>
                                     <div className='flex flex-col'>
-                                        <label className='uppercase text-sm py-2'>Phone Number</label>
-                                        <input className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' />
+                                        <label htmlFor='phone number' className='uppercase text-sm py-2'>Phone Number</label>
+                                        <input name='Phone Number' id='phone number' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' />
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Email</label>
-                                    <input className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='email' />
+                                    <label htmlFor='Email Address' className='uppercase text-sm py-2'>Email Address</label>
+                                    <input name='Email Address' id='email address' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='email' value={email} onChange={e => setEmail(e.target.value)}/>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Subject</label>
-                                    <input className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' />
+                                    <label htmlFor='subject' className='uppercase text-sm py-2'>Subject</label>
+                                    <input required name='Subject' id='subject' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={subject} onChange={e => setSubject(e.target.value)}/>
                                 </div>
                                 <div className='flex flex-col py-2'>
-                                    <label className='uppercase text-sm py-2'>Message</label>
-                                    <textarea className='text-black border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
+                                    <label htmlFor='Message' className='uppercase text-sm py-2'>Message</label>
+                                    <textarea required name='Body' id='body' className='text-black border-2 rounded-lg p-3 border-gray-300' rows='10' value={body} onChange={e => setBody(e.target.value)}></textarea>
                                 </div>
-                                <button className='w-full p-4 text-white mt-4 shadow-md shadow-slate-500'>Send Message</button>
+                                {/* Uses regex to simple check for an email */}
+                                <button onClick={name && /^\S+@\S+$/.test(email) && subject && body ? () => setMessage('Redirecting to Email...') : () => setMessage('Form Missing Input')} className='w-full p-4 text-white mt-4 shadow-md shadow-slate-500'>{message}</button>
                             </form>
                         </div>
                     </div>

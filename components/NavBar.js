@@ -37,8 +37,10 @@ export default function NavBar() {
     return (
         <div style={{ backgroundColor: `${navBg}` }} className='fixed w-full h-20 shadow-xl z-[100]'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-                <Link href='/'>
-                    <Image src={bwu} alt='/' width='300' height='300' />
+                <Link href='/' passHref>
+                    <a>
+                        <Image src={bwu} alt='/' width='300' height='300' />
+                    </a>
                 </Link>
                 <div>
                     <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -70,8 +72,10 @@ export default function NavBar() {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Link href='/'>
-                                <Image src={bwu2} alt='/' width='200' height='75' />
+                            <Link href='/' passHref>
+                                <a>
+                                    <Image src={bwu2} alt='/' width='200' height='75' />
+                                </a>
                             </Link>
                             <div onClick={handleNav} className='rounded-full outline p-3 cursor-pointer'>
                                 <AiOutlineClose />
