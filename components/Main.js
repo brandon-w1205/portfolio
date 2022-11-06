@@ -19,16 +19,16 @@ const Main = () => {
                     I&apos;m a full-stack developer with an emphasis on back-end development and love to work with databases. Looking forward to building foundations with you, check out my links below!
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaLinkedinIn />
                     </div>
-                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
                         <FaGithub />
                     </div>
-                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
                         <AiOutlineMail />
                     </div>
-                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
                         <BsFillPersonLinesFill />
                     </div>
 
