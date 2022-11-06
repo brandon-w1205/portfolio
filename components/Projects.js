@@ -7,7 +7,7 @@ import cheapEgames from '../public/assets/projects/cheapEgames.png'
 
 const Projects = () => {
   return (
-    <div className='w-full'>
+    <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-emerald-400'>Projects</p>
         <h2 className='py-4'>Websites I&apos;ve Made</h2>

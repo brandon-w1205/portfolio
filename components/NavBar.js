@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import bwu from '../public/assets/brandon-wu.png'
 import bwu2 from '../public/assets/brandon-wu2.png'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
@@ -22,19 +22,19 @@ export default function NavBar() {
                 <div>
                     <ul className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Home</li>
                         </Link>
-                        <Link href='/about'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>About Me</li>
+                        <Link href='/#about'>
+                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>About Me</li>
                         </Link>
-                        <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                        <Link href='/#skills'>
+                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Skills</li>
                         </Link>
-                        <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                        <Link href='/#projects'>
+                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Projects</li>
                         </Link>
-                        <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                        <Link href='/#contact'>
+                            <li className='ml-10 text-md uppercase hover:underline hover:underline-offset-4 hover:decoration-from-font'>Contact</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
@@ -49,7 +49,7 @@ export default function NavBar() {
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
-                            <Image src={bwu2} alt='/' width='200' height='75'/>
+                            <Image src={bwu2} alt='/' width='200' height='75' />
                             <div onClick={handleNav} className='rounded-full outline p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
