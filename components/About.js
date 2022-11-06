@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import myself from '../public/assets/picOfMyself.jpg'
+import Link from 'next/link'
 
 const About = () => {
     return (
@@ -15,9 +16,9 @@ const About = () => {
                     <p className='py-2'>
                         At General Assembly, I was able to meet an amazing cohort of bright individuals that I was able to grow and develop with. During this three month period, I not only learned the basics of front-end and back-end tech stacks, but I also created fun projects that reflect my growth.
                     </p>
-                    <a href='/#projects'>
-                        <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
-                    </a>
+                    <Link href='/#projects'>
+                            <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
+                    </Link>
                 </div>
                 <div className='w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                     <Image src={myself} className='rounded-full' alt='picture of myself' width='300' height='300' />

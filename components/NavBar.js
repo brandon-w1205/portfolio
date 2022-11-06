@@ -105,7 +105,7 @@ export default function NavBar() {
                             </Link>
                         </ul>
                         <div className='pt-40'>
-                            <p className='uppercase tracking-widest text-[#DFFF00]'>Let&apos;s Connect</p>
+                            <p className='uppercase tracking-widest text-emerald-500'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn />
