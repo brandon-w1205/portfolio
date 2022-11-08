@@ -14,7 +14,7 @@ const About = () => {
                         After graduating from the California State University of Fullerton with a bachelor&apos;s in Accounting, I quickly realized that the field was not for me when I found myself partaking in programming tutorials during my off-time from work! This enjoyment for programming led me to researching software engineering bootcamps, particularly General Assembly.
                     </p>
                     <p className='py-2'>
-                        At General Assembly, I was able to meet an amazing cohort of bright individuals that I was able to grow and develop with. During this three month period, I not only learned the basics of front-end and back-end tech stacks, but I also created fun projects that reflect my growth.
+                        At General Assembly, I was able to meet an amazing cohort of bright individuals that I was able to grow and develop with. During this three-month period, I not only learned the basics of front-end and back-end tech stacks, but I also created fun projects that reflect my growth.
                     </p>
                     <Link href='/#projects'>
                             <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
