@@ -21,17 +21,17 @@ const Main = () => {
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         {/* add links for icons */}
                         <a href='https://www.linkedin.com/in/brandonjwu/' target='blank'>
-                            <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
+                            <div className='ring ring-white rounded-full p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
                                 <FaLinkedinIn />
                             </div>
                         </a>
                         <a href='https://github.com/brandon-w1205' target='blank'>
-                            <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
+                            <div className='rounded-full p-6 ring ring-white cursor-pointer hover:scale-110 ease-in duration-200'>
                                 <FaGithub />
                             </div>
                         </a>
                         <Link href='/#contact'>
-                            <div className='rounded-full p-6 outline cursor-pointer hover:scale-110 ease-in duration-200'>
+                            <div className='rounded-full p-6 ring ring-white cursor-pointer hover:scale-110 ease-in duration-200'>
                                 <AiOutlineMail />
                             </div>
                         </Link>

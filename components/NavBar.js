@@ -77,7 +77,7 @@ export default function NavBar() {
                                     <Image src={bwu2} alt='/' width='200' height='75' />
                                 </a>
                             </Link>
-                            <div onClick={handleNav} className='rounded-full outline p-3 cursor-pointer'>
+                            <div onClick={handleNav} className='rounded-full ring ring-white p-3 cursor-pointer'>
                                 <AiOutlineClose />
                             </div>
                         </div>
@@ -108,17 +108,17 @@ export default function NavBar() {
                             <p className='uppercase tracking-widest text-emerald-500'>Let&apos;s Connect</p>
                             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <a href='https://www.linkedin.com/in/brandonjwu/' target='blank'>
-                                    <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <div className='rounded-full p-3 ring ring-white cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaLinkedinIn />
                                     </div>
                                 </a>
                                 <a href='https://github.com/brandon-w1205' target='blank'>
-                                    <div className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <div className='rounded-full p-3 ring ring-white cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <FaGithub />
                                     </div>
                                 </a>
                                 <Link href='/#contact'>
-                                    <div onClick={() => setNav(false)} className='rounded-full p-3 outline cursor-pointer hover:scale-105 ease-in duration-300'>
+                                    <div onClick={() => setNav(false)} className='rounded-full p-3 ring ring-white cursor-pointer hover:scale-105 ease-in duration-300'>
                                         <AiOutlineMail onClick={() => setNav(false)} />
                                     </div>
                                 </Link>

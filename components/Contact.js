@@ -39,12 +39,12 @@ const Contact = () => {
                                 {/* add links for icons */}
                                 <div className='flex gap-x-5 justify-start py-4'>
                                     <a href='https://www.linkedin.com/in/brandonjwu/' target='blank'>
-                                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                                        <div className='rounded-full ring ring-white shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
                                             <FaLinkedinIn />
                                         </div>
                                     </a>
                                     <a href='https://github.com/brandon-w1205' target='blank'>
-                                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                                        <div className='rounded-full ring ring-white shadow-gray-400 hover:shadow-gray-400 p-6 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
                                             <FaGithub />
                                         </div>
                                     </a>
@@ -88,7 +88,7 @@ const Contact = () => {
                 </div>
                 <div className='flex justify-center py-12'>
                     <Link href='/'>
-                        <div className='rounded-full outline shadow-gray-400 hover:shadow-gray-400 p-4 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
+                        <div className='rounded-full ring ring-white shadow-gray-400 hover:shadow-gray-400 p-4 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
                             <HiOutlineChevronDoubleUp size={30} />
                         </div>
                     </Link>
