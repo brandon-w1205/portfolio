@@ -10,7 +10,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { useRouter } from 'next/router'
 
 export default function NavBar() {
-    const [nav, setNav] = useState(true)
+    const [nav, setNav] = useState(false)
     const [navBg, setNavBg] = useState('#333333')
     const [linkColor, setLinkColor] = useState('white')
     const router = useRouter()
