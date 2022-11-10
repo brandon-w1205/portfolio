@@ -29,7 +29,7 @@ const Skills = () => {
             <h2 className='py-1 pb-5'>Proficient</h2>
             <div className='grid lg:grid-cols-2 gap-8'>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={javascript} width='64px' height='64px' alt='/' />
@@ -40,7 +40,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={postgres} width='64px' height='64px' alt='/' />
@@ -51,7 +51,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={sequelize} width='64px' height='64px' alt='/' />
@@ -64,7 +64,7 @@ const Skills = () => {
 
 
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={node} width='64px' height='64px' alt='/' />
@@ -75,7 +75,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={expressjs} width='64px' height='64px' alt='/' />
@@ -86,7 +86,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={react} width='64px' height='64px' alt='/' />
@@ -97,7 +97,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={github1} width='64px' height='64px' alt='/' />
@@ -118,7 +118,7 @@ const Skills = () => {
             <h2 className='py-1 pb-5'>Rudimentary</h2>
             <div className='grid lg:grid-cols-2 gap-8'>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+            <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={python} width='64px' height='64px' alt='/' />
@@ -129,7 +129,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={nextjs} width='64px' height='64px' alt='/' />
@@ -140,7 +140,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={typescript} width='64px' height='64px' alt='/' />
@@ -151,7 +151,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={mongo} width='64px' height='64px' alt='/' />
@@ -162,7 +162,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={html} width='64px' height='64px' alt='/' />
@@ -173,7 +173,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={css} width='64px' height='64px' alt='/' />
@@ -184,7 +184,7 @@ const Skills = () => {
                 </div>
               </div>
 
-              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={tailwind} width='64px' height='64px' alt='/' />

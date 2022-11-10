@@ -8,15 +8,15 @@ const Main = () => {
         <div id='home' className='w-full h-screen text-center'>
             <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
                 <div>
-                    <p className='uppercase text-sm tracking-widest text-white'>{'ONE STEP AT A TIME'}</p>
+                    <p className='text-lg tracking-widest text-white'>{'Hello!'}</p>
                     <h1 className='py-4 text-white'>
-                        Hi, I&apos;m <span className='text-emerald-400'>Brandon</span>
+                        I&apos;m <span className='text-emerald-400'>Brandon</span>
                     </h1>
                     <h1 className='py-4 text-white'>
                         A Software Engineer
                     </h1>
                     <p className='py-4 text-white max-w-[70%] m-auto'>
-                        I&apos;m a software engineer with an emphasis on front-end development and love working with javascript, apis, and databases. Looking forward to building foundations with you, check out my links below!
+                        I&apos;m a developer with an emphasis on front-end development and love working with javascript, apis, and databases. Looking forward to building foundations with you, check out my links below!
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         {/* add links for icons */}
