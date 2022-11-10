@@ -16,7 +16,7 @@ const Contact = () => {
 
     return (
         <div id='contact' className='w-full lg:h-screen'>
-            <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
+            <div className='max-w-[1240px] m-auto px-2  pt-28 w-full'>
                 <p className='text-xl tracking-widest uppercase text-emerald-400'>
                     Contact
                 </p>
@@ -58,7 +58,7 @@ const Contact = () => {
                     <div className='col-span-3 w-full h-auto shadow-md shadow-slate-500 bg-zinc-700 rounded-xl lg:p-4'>
                         <div className='p-4'>
                             <form action={`mailto:bwu1205@gmail.com?subject=Contact Form Submission`} method='post' encType='text/plain'>
-                                <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+                                <div className='grid md:grid-cols-2 gap-4 w-full'>
                                     <div className='flex flex-col'>
                                         <label htmlFor='name' className='uppercase text-sm py-2'>Name</label>
                                         <input required name='Name' id='name' className='text-black border-2 rounded-lg p-2 flex border-gray-300' type='text' value={name} onChange={e => setName(e.target.value)} />
@@ -78,7 +78,7 @@ const Contact = () => {
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label htmlFor='Message' className='uppercase text-sm py-2'>Message</label>
-                                    <textarea required name='Body' id='body' className='text-black border-2 rounded-lg p-3 border-gray-300' rows='10' value={body} onChange={e => setBody(e.target.value)}></textarea>
+                                    <textarea required name='Body' id='body' className='text-black border-2 rounded-lg p-3 border-gray-300' rows='5' value={body} onChange={e => setBody(e.target.value)}></textarea>
                                 </div>
                                 {/* Uses regex to simple check for an email */}
                                 <button onClick={name && /^\S+@\S+$/.test(email) && subject && body ? () => setMessage('Redirecting to Email...') : () => setMessage('Form Missing Input')} className='w-full p-4 text-white mt-4 shadow-md shadow-slate-500'>{message}</button>
@@ -86,7 +86,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center py-12'>
+                <div className='flex justify-center pt-12 pb-2'>
                     <Link href='/'>
                         <div className='rounded-full ring ring-white shadow-gray-400 hover:shadow-gray-400 p-4 cursor-pointer hover:scale-110 hover:shadow-lg ease-in duration-200'>
                             <HiOutlineChevronDoubleUp size={30} />

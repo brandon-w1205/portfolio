@@ -26,8 +26,8 @@ const Skills = () => {
 
           {/* Proficient Skills */}
           <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700'>
-            <h2 className='py-2 pb-3'>Proficient</h2>
-            <div className='grid md:grid-cols-2 gap-8'>
+            <h2 className='py-1 pb-5'>Proficient</h2>
+            <div className='grid lg:grid-cols-2 gap-8'>
 
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -115,8 +115,8 @@ const Skills = () => {
           {/* Basic Understanding Skills */}
 
           <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700'>
-            <h2 className='py-2 pb-3'>Basic Understanding</h2>
-            <div className='grid md:grid-cols-2 gap-8'>
+            <h2 className='py-1 pb-5'>Rudimentary</h2>
+            <div className='grid lg:grid-cols-2 gap-8'>
 
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -129,14 +129,6 @@ const Skills = () => {
                 </div>
               </div>
 
-
-
-
-
-
-
-
-
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
@@ -148,10 +140,6 @@ const Skills = () => {
                 </div>
               </div>
 
-
-
-
-
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
@@ -162,8 +150,6 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-
-
 
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -198,7 +184,6 @@ const Skills = () => {
                 </div>
               </div>
 
-
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
@@ -210,7 +195,6 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-
 
           </div>
 
