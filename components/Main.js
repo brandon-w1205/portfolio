@@ -13,10 +13,10 @@ const Main = () => {
                         Hi, I&apos;m <span className='text-emerald-400'>Brandon</span>
                     </h1>
                     <h1 className='py-4 text-white'>
-                        A Full-Stack Developer
+                        A Software Engineer
                     </h1>
                     <p className='py-4 text-white max-w-[70%] m-auto'>
-                        I&apos;m a full-stack developer with an emphasis on front-end development and love working with javascript and apis. Looking forward to building foundations with you, check out my links below!
+                        I&apos;m a software engineer with an emphasis on front-end development and love working with javascript, apis, and databases. Looking forward to building foundations with you, check out my links below!
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         {/* add links for icons */}
