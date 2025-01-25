@@ -31,7 +31,7 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2'>Brandon Wu</h2>
                                 <p>Full-Stack Developer</p>
-                                <p className='py-4'>Looking for a full-time position, send me a message and I&apos;ll respond asap!</p>
+                                <p className='py-4'>Open to new opportunities, send me a message and I&apos;ll respond asap!</p>
                             </div>
                             <div>
                                 <p className='uppercase pt-8'>Connect With Me</p>
