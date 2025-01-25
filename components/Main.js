@@ -16,7 +16,7 @@ const Main = () => {
                         A Software Engineer
                     </h1>
                     <p className='py-4 text-white max-w-[70%] m-auto'>
-                        I&apos;m a developer with an emphasis on front-end development and love working with javascript, apis, and databases. Looking forward to building foundations with you, check out my links below!
+                        I&apos;m a passionate software developer with a strong foundation in back-end development from WGU's bachelor's program. Experienced in building front-end, back-end, and full-stack applications, with expertise in JavaScript, Python, Java, C++, APIs, and databases. From game development to websites and everything in between, I enjoy creating intuitive, user-friendly applications and am excited to bring engaging, interactive experiences to life. Ready to collaborate and innovate—check out my links below!
                     </p>
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                         {/* add links for icons */}
