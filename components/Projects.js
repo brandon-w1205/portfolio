@@ -25,12 +25,12 @@ const Projects = () => {
             techStack='Express, PostgresQL, BootStrap'
             projectUrl='/cheapEgames'
           />
-          <ProjectItem
+          {/* <ProjectItem
             title='The Perfect Blend'
             backgroundImg={blendImg}
             techStack='React, MongoDB, Bulma'
             projectUrl='/the-perfect-blend'
-          />
+          /> */}
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}
