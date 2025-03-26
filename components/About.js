@@ -16,6 +16,9 @@ const About = () => {
                     <p className='py-2'>
                         At General Assembly, I was able to meet an amazing cohort of bright individuals that I was able to grow and develop with. During this three-month period, I not only learned the basics of front-end and back-end tech stacks, but I also created fun projects that reflect my growth.
                     </p>
+                    <p>
+                        Western Governors University's Bachelors of Science in Computer Science program accelerated my learning and understanding of computer science concepts. I was able to create a capstone project, a full-stack application that uses machine learning to determine a game's success based on its features.
+                    </p>
                     <Link href='/#projects'>
                             <p className='py-2 underline cursor-pointer'>Check out the projects here!</p>
                     </Link>
