@@ -15,23 +15,26 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
-            title='Working Algorithm Games'
-            backgroundImg={wagImg}
-            techStack='Next, MongoDB, TypeScript, Ant Design'
-            projectUrl='/working-algorithm-games'
+            title='Game Success Predictor'
+            backgroundImg={gameImg}
+            techStack='Next, PostgresQL, TailwindCSS, Python, Flask, Scikit-Learn'
+            projectUrl='/game-success'
           />
+
           <ProjectItem
             title='cheapEgames'
             backgroundImg={cheapEgamesImg}
             techStack='Express, PostgresQL, BootStrap'
             projectUrl='/cheapEgames'
           />
+
           <ProjectItem
-            title='Game Success Predictor'
-            backgroundImg={gameImg}
-            techStack='Next, PostgresQL, TailwindCSS, Python, Flask, Scikit-Learn'
-            projectUrl='/game-success-predictor'
+            title='Working Algorithm Games'
+            backgroundImg={wagImg}
+            techStack='Next, MongoDB, TypeScript, Ant Design'
+            projectUrl='/working-algorithm-games'
           />
+
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}
