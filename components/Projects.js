@@ -4,6 +4,7 @@ import ProjectItem from './ProjectItem'
 import blendImg from '../public/assets/projects/the-perfect-blend.png'
 import piggyImg from '../public/assets/projects/that-little-piggy.png'
 import cheapEgamesImg from '../public/assets/projects/cheapEgames.png'
+import gameImg from '../public/assets/projects/GameSuccessPredictor.png'
 
 const Projects = () => {
   return (
@@ -25,12 +26,12 @@ const Projects = () => {
             techStack='Express, PostgresQL, BootStrap'
             projectUrl='/cheapEgames'
           />
-          {/* <ProjectItem
-            title='The Perfect Blend'
-            backgroundImg={blendImg}
-            techStack='React, MongoDB, Bulma'
-            projectUrl='/the-perfect-blend'
-          /> */}
+          <ProjectItem
+            title='Game Success Predictor'
+            backgroundImg={gameImg}
+            techStack='Next, PostgresQL, TailwindCSS, Python, Flask, Scikit-Learn'
+            projectUrl='/game-success-predictor'
+          />
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}
