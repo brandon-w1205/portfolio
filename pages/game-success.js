@@ -19,7 +19,7 @@ const gameSuccess = () => {
                 <div className='col-span-4'>
                     <p>Project</p>
                     <h2>Overview</h2>
-                    <p>Game Success Predictor was created with a backend using Sci-Kit Learn, Flask, and Python; a front-end using Next.js and TailwindCSS; and a PostgreSQL database. Users are able to input a title of a game they plan on creating, select features of said game, and see the results of the machine learning algorithm that predicts the game&apos;s chances of success. In the future, I plan on adding the ability to input a custom dataset so that the project maintains updated with the latest game sale information.</p>
+                    <p>Game Success Predictor was created with a backend using Sci-Kit Learn, Flask, and Python; a frontend using Next.js and TailwindCSS; and a PostgreSQL database. Users are able to input a title of a game they plan on creating, select features of said game, and see the results of the machine learning algorithm that predicts the game&apos;s chances of success. In the future, I plan on adding the ability to input a custom dataset so that the project maintains updated with the latest game sale information.</p>
                     <a href='https://gamesuccess.vercel.app/' target='blank'>
                         <button className='px-8 py-2 mt-4 mr-8'>Link to Site</button>
                     </a>
