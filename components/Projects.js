@@ -4,6 +4,7 @@ import ProjectItem from './ProjectItem'
 import blendImg from '../public/assets/projects/the-perfect-blend.png'
 import piggyImg from '../public/assets/projects/that-little-piggy.png'
 import cheapEgamesImg from '../public/assets/projects/cheapEgames.png'
+import gameImg from '../public/assets/projects/GameSuccessPredictor.png'
 
 const Projects = () => {
   return (
@@ -14,23 +15,26 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
 
           <ProjectItem
-            title='Working Algorithm Games'
-            backgroundImg={wagImg}
-            techStack='Next, MongoDB, TypeScript, Ant Design'
-            projectUrl='/working-algorithm-games'
+            title='Game Success Predictor'
+            backgroundImg={gameImg}
+            techStack='Next, PostgresQL, TailwindCSS, Python, Flask, Scikit-Learn'
+            projectUrl='/game-success'
           />
+
           <ProjectItem
             title='cheapEgames'
             backgroundImg={cheapEgamesImg}
             techStack='Express, PostgresQL, BootStrap'
             projectUrl='/cheapEgames'
           />
-          {/* <ProjectItem
-            title='The Perfect Blend'
-            backgroundImg={blendImg}
-            techStack='React, MongoDB, Bulma'
-            projectUrl='/the-perfect-blend'
-          /> */}
+
+          <ProjectItem
+            title='Working Algorithm Games'
+            backgroundImg={wagImg}
+            techStack='Next, MongoDB, TypeScript, Ant Design'
+            projectUrl='/working-algorithm-games'
+          />
+
           <ProjectItem
             title='That Little Piggy'
             backgroundImg={piggyImg}

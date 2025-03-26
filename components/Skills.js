@@ -22,12 +22,10 @@ const Skills = () => {
         <p className='text-xl tracking-widest uppercase text-emerald-400'>Skills</p>
         <h2 className='py-2 pb-3'>Tools Used Around The World... (and by me!)</h2>
         {/* <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'> */}
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div className='grid md:grid-cols-1 gap-8'>
 
-          {/* Proficient Skills */}
           <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700'>
-            <h2 className='py-1 pb-5'>Proficient</h2>
-            <div className='grid lg:grid-cols-2 gap-8'>
+            <div className='grid lg:grid-cols-4 gap-8'>
 
               <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -107,18 +105,8 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
-            </div>
 
-
-          </div>
-
-          {/* Basic Understanding Skills */}
-
-          <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700'>
-            <h2 className='py-1 pb-5'>Rudimentary</h2>
-            <div className='grid lg:grid-cols-2 gap-8'>
-
-            <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
+              <div className='p-6 shadow-md shadow-slate-500 rounded-xl bg-zinc-700 hover:scale-105 hover:shadow-slate-500 hover:shadow-lg ease-in duration-200'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                   <div className='m-auto'>
                     <Image src={python} width='64px' height='64px' alt='/' />
@@ -195,17 +183,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-
           </div>
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </div>
